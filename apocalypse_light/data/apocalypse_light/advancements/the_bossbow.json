@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:crossbow",
+            "nbt":"{}"
+        },
+        "title": "The Bossbow",
+        "description": "Find the Ultimate Crossbow"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:crossbow",
+                  "nbt": "{Enchantments: [{lvl: 5s, id: \"minecraft:quick_charge\"}, {lvl: 10s, id: \"minecraft:piercing\"}], display: {Lore: ['{\"text\":\"Not today zombies.\"}'], Name: '{\"text\":\"Ultimate Crossbow\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"apocalypse_light:apocalypse_light"
+}

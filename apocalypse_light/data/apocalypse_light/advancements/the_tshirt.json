@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:leather_chestplate",
+            "nbt":"{display: {color: 14129300}}"
+        },
+        "title": "The T-shirt",
+        "description": "A sweaty t-shirt could save your life"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:leather_chestplate",
+                  "nbt": "{nbt: \"body_odor\", RepairCost: 0, Damage: 0, display: {color: 14129300, Lore: ['{\"text\":\"Smells so bad even the zombies avoid it\"}'], Name: '{\"text\":\"Ultimate Body Odor T-Shirt\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"apocalypse_light:apocalypse_light"
+}

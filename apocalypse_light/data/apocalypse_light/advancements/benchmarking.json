@@ -1,0 +1,26 @@
+{
+  "display": {
+      "icon":{
+          "item":"minecraft:crafting_table",
+          "nbt":"{}"
+      },
+      "title": "Benchmarking",
+      "description": "Make a crafting table. (This now deserves an advancement)"
+  },
+  "criteria":
+  {
+      "get_item": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "minecraft:crafting_table"
+              }
+            ],
+            "slots": {
+            }
+          }
+        }
+  },
+  "parent":"apocalypse_light:apocalypse_light"
+}

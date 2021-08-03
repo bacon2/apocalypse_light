@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:zombie_head",
+            "nbt":"{}"
+        },
+        "title": "Fun With Zombies",
+        "description": "More will come as you gain certain advancements",
+        "announce_to_chat":  "false",
+        "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png"
+    },
+    "criteria":
+    {
+        "immediate":
+        {
+            "trigger":"tick",
+            "conditions":{}
+        }
+    }
+}

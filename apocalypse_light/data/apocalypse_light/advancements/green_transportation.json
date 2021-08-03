@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:saddle",
+            "nbt":"{}"
+        },
+        "title": "Green Transportation",
+        "description": "Ride a zombie horse"
+    },
+    "criteria": {
+      "ride_zombie_horse": {
+          "trigger": "impossible",
+          "conditions": {}
+      }
+  },
+    "parent":"apocalypse_light:apocalypse_light"
+}

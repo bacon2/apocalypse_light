@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:iron_bars",
+            "nbt":"{}"
+        },
+        "title": "Behind Bars",
+        "description": "Obtain unbreakable iron bars"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:iron_bars"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"apocalypse_light:apocalypse_light"
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon":{
+            "item":"minecraft:chainmail_chestplate",
+            "nbt":"{}"
+        },
+        "title": "The Vest",
+        "description": "Bulletproof vest to counter the crossbow"
+    },
+    "criteria":
+    {
+        "get_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "minecraft:chainmail_chestplate",
+                  "nbt": "{Enchantments: [{lvl: 5s, id: \"minecraft:projectile_protection\"}, {lvl: 10s, id: \"minecraft:piercing\"}], display: {Lore: ['{\"text\":\"Dont fear the griefer\"}'], Name: '{\"text\":\"Ultimate Bullet-Proof Vest\", \"italic\":\"false\", \"color\":\"purple\"}'}}"
+                }
+              ],
+              "slots": {
+              }
+            }
+          }
+    },
+    "parent":"apocalypse_light:apocalypse_light"
+}

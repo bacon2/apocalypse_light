@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rotten_flesh",
+            "nbt": "{}"
+        },
+        "title": "Eye couch! Couch eye!",
+        "description": "Kill 3000 zombies"
+    },
+    "criteria": {
+        "straightforward": {
+            "trigger": "impossible",
+            "conditions": {}
+        }
+    },
+    "parent": "apocalypse_light:eye_couch"
+}
